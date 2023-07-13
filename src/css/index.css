@@ -1,48 +1,73 @@
 body {
+  background-image: url('../../wp.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #fccf00;
-  color: rgb(214, 214, 214);
+  color: #ffffff;
   max-width: 900px;
   margin: 0 auto;
 }
-
 #root {
-  background-color: #467917;
+  background: rgba(77, 70, 70, 0.7);
   padding: 60px;
   border-radius: 20px;
   height: 100%;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
-#navBar{
-  background-color: #467917;
-  max-width: 97%;
-  height: 50px;
-  padding: 13px;
+.social-menu ul{
   position: static;
-  border-radius: 10px;
-  margin-bottom: 50px;
+  display: flex;
+  justify-content: right;
 }
 
-#navElem{
-  list-style-type: none;
-  text-align: right;
+.social-menu ul li{
+  list-style: none;
+  margin-top: 10px;
+  margin-right: 15px;
 }
 
-li{
-  display: inline-block;
-  font-weight: bold;
-  margin-right: 30px;
+.social-menu ul li .fa{
+  font-size: 30px;
+  transition: .6s;
+  color: black;
 }
 
-a{
-  color: white;
+.social-menu ul li a{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
+  text-decoration: none;
+  transition: .6s;
+  box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.social-menu ul li a:hover{
+  transform: translate(0,-10px);
+}
+
+.social-menu ul li:nth-child(1) a:hover{
+  background-color: #3b5999;
+}
+
+.social-menu ul li:nth-child(2) a:hover{
+  background-color: #e4405f;
+}
+
+.social-menu ul li:nth-child(3) a:hover{
+  background-color: #0077B5;
 }
 
 #profIcon{
   background-size: cover;
   border-radius: 50%;
-  border: 10px solid black;
+  border: 10px solid #ffffff;
   height:250px;
   margin-bottom: 50px;
   margin-right: 20px;
@@ -54,7 +79,7 @@ a{
 
 #personalInfo{
   font-weight: bold;
-  color: white;
+  color: #ffffff;
   padding-left: 20px;
   display: flex;
   flex-direction: column;
@@ -62,7 +87,7 @@ a{
 #data{
   display: flex;
   flex-direction: column;
-  color: white;
+  color: #ffffff;
   margin-left: 5px;
 }
 
@@ -70,7 +95,7 @@ a{
   text-align: left;
   font-weight: lighter;
   font-style: normal;
-  color: white;
+  color: #ffffff;
 }
 
 #project-text{
@@ -88,14 +113,16 @@ a{
 
 #ans1{
   background-size: cover;
-  border: 10px solid black;
+  border: 10px solid white;
+  border-radius: 10%;
   height:250px;
   width: 300px;
 }
 
 #ans2{
   background-size: cover;
-  border: 10px solid black;
+  border: 10px solid white;
+  border-radius: 10%;
   height:250px;
   width: 300px;
 }
