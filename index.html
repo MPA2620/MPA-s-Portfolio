@@ -13,32 +13,50 @@
 <div id="navBar">
     <ul id="navElem">
         <li><a href="#">Contacts</a> </li>
-        <li><a href="#">Portfolio</a> </li>
-        <li><a href="#">Services</a> </li>
+        <li><a href="#">Projects</a> </li>
+        <li><a href="#">Education</a> </li>
     </ul>
 </div>
 
 <div id="root">
-    <img id="profilePic" src="profIcon.jpg" alt="Profile Pic">
-    <h1>Welcome to Simple Portfolio at AMICUS CODING DAYS!</h1>
-    <p>
-        This boilerplate is ready for HTML/CSS, Javascript, and JQuery projects.
-        It includes a live server that lets you see HTML/JS/CSS changes with every save.
-    </p>
+    <div id="prsBox">
+        <div id="profilePic">
+            <img id="profIcon"  src="profIcon.png" alt="Profile Pic">
+        </div>
+        <div id="personalInfo">
+            <h1>First Name:</h1>
+            <h1>Last Name:</h1>
+            <h1>Date of Birth:</h1>
+        </div>
+        <div id="data">
+            <h1>Moldovan</h1>
+            <h1>Alexandru</h1>
+            <h1>26.10.2000</h1>
+        </div>
+    </div>
 
-    <p id="subtext">
-        An Example JavaScript Hook.
-    </p>
+    <div id="about-me">
+        <h1>About Me</h1>
+        <p>I would describe myself as being an open-minded, sociable, empathetic person and eager to improve in design
+            and programming. I like to pay attention to details and I am meticulous in the things I have to do. I usually
+            analyze everything around me and I don't like to make hasty decisions. Sincerity, creativity and a passion for
+            technology are representative characteristics of me.</p>
+    </div>
+    <div id="project-text">
+        <h1>My Projects</h1>
+        <p>Here are some of my CAD/CAM projects</p>
+    </div>
+    <div id="projects">
+        <div id="prj1">
+            <img id="ans1" src="ansamblu.png" alt="Square Tool Post">
+            <p>A fully working Square Tool Post for CNC designed in Solidworks 2019</p>
 
-    <h2>Instructions:</h2>
-    <p>
-        To see live changes, please go to the root folder ('simple-boilerplate/')
-        and run "npm start".
-    </p>
-    <p>
-        To start coding, start changing the files within src/css and src/js.
-        Images can be stored in src/assets.
-    </p>
+        </div>
+        <div id="prj2">
+            <img id="ans2" src="img.png" alt="Cardan">
+            <p>Fully working Cardan used to transfer torque from gearbox to back wheels</p>
+        </div>
+    </div>
 </div>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
 <!-- ================================ -->

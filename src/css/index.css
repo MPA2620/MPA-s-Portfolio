@@ -14,19 +14,6 @@ body {
   margin-top: 50px;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto;
-}
-
-h1 {
-  margin-top: 50px;
-}
-
-p {
-  font-size: 22px;
-}
-
 #navBar{
   background-color: #467917;
   max-width: 97%;
@@ -52,9 +39,79 @@ a{
   color: white;
 }
 
-#root img{
+#profIcon{
   background-size: cover;
   border-radius: 50%;
   border: 10px solid black;
   height:250px;
+  margin-bottom: 50px;
+  margin-right: 20px;
+}
+
+#prsBox{
+  display: flex;
+}
+
+#personalInfo{
+  font-weight: bold;
+  color: white;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+#data{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-left: 5px;
+}
+
+#about-me{
+  text-align: left;
+  font-weight: lighter;
+  font-style: normal;
+  color: white;
+}
+
+#project-text{
+  text-align: left;
+  color: white;
+  font-style: normal;
+  font-size: large;
+}
+
+#projects{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#ans1{
+  background-size: cover;
+  border: 10px solid black;
+  height:250px;
+  width: 300px;
+}
+
+#ans2{
+  background-size: cover;
+  border: 10px solid black;
+  height:250px;
+  width: 300px;
+}
+
+#prj1{
+  display: flex;
+  color: white;
+  font-style: normal;
+  align-items: center;
+  gap: 20px;
+}
+
+#prj2{
+  display: flex;
+  color: white;
+  font-style: normal;
+  align-items: center;
+  gap: 20px;
 }
