@@ -124,6 +124,13 @@ body {
   height:250px;
   width: 350px;
 }
+#ans3{
+  background-size: cover;
+  border: 10px solid white;
+  border-radius: 10%;
+  height:250px;
+  width: 350px;
+}
 
 #prj1{
   display: flex;
@@ -134,6 +141,14 @@ body {
 }
 
 #prj2{
+  display: flex;
+  color: white;
+  font-style: normal;
+  align-items: center;
+  gap: 20px;
+}
+
+#prj3{
   display: flex;
   color: white;
   font-style: normal;
