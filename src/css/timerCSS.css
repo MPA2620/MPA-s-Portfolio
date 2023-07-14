@@ -23,3 +23,10 @@ body {
     font-weight: bold;
 }
 
+.backBtn img{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}

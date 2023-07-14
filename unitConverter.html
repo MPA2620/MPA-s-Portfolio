@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="./convertIcon.png" />
+  <meta name="theme-color" content="#000000" />
+  <title>Unit Converter | MPA</title>
+  <link rel="stylesheet" type="text/css" href="src/css/converterCSS.css">
+
+  <!-- Add additional CSS & JS files as necessary here -->
+
+</head>
+<body>
+  <div class="container">
+    <div class="convBox">
+      <div class="dataEntry">
+        <h1>Multi-Converter</h1>
+          <div class="content1">
+            <label>
+              <input id="From" placeholder="From" type="number">
+              <select id="inputType">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="meters">Meters</option>
+                <option value="feet">Feet</option>
+                <option value="centimeters">Centimeters</option>
+                <option value="inch">Inches</option>
+              </select>
+            </label>
+          </div>
+        <div class="content2">
+          <label>
+            <input id="To" placeholder="To" type="number">
+            <select id="resultType">
+              <option value="celsius">Celsius</option>
+              <option value="fahrenheit">Fahrenheit</option>
+              <option value="meters">Meters</option>
+              <option value="feet">Feet</option>
+              <option value="centimeters">Centimeters</option>
+              <option value="inch">Inches</option>
+            </select>
+          </label>
+        </div>
+        <div class="backBtn">
+          <a href="index.html">
+            <img src="backbtn.png" alt="back button">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Add your site or application content here -->
+
+<!-- ================================ -->
+<!-- Add more JavaScript files here!! -->
+<!-- ================================ -->
+
+<script src="./src/js/converterJS.js"></script>
+</body>
+</html>

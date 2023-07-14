@@ -1,0 +1,71 @@
+body{
+    background-image: url("../../convert-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.convBox{
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: center;
+}
+
+.backBtn{
+    display: flex;
+    justify-content: center;
+}
+
+.backBtn img{
+    margin-top: 35px;
+    height: 50px;
+    width: 50px;
+}
+
+.dataEntry h1{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 60px;
+    color: black;
+}
+
+.content1{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.content2{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.dataEntry select{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
+}
+.dataEntry input{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
+}
