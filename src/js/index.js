@@ -21,4 +21,8 @@ exampleJavaScriptFn();
 // then it will color its background blue
 changeSubtextBackground();
 
+function GetElement(){
+  alert("My phone number is: 0745116712")
+}
+
 

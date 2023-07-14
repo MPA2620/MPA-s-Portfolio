@@ -88,12 +88,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-#data{
-  display: flex;
-  flex-direction: column;
-  color: #ffffff;
-  margin-left: 5px;
-}
 
 #about-me{
   text-align: left;
